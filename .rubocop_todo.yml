@@ -48,12 +48,6 @@ Lint/ParenthesesAsGroupedExpression:
   Exclude:
     - 'about_keyword_arguments.rb'
 
-# Offense count: 3
-Lint/RescueException:
-  Exclude:
-    - 'about_nil.rb'
-    - 'neo.rb'
-
 # Offense count: 1
 Lint/ShadowingOuterLocalVariable:
   Exclude:
@@ -217,10 +211,6 @@ Style/ConstantName:
   Exclude:
     - 'about_class_methods.rb'
     - 'about_symbols.rb'
-
-# Offense count: 76
-Style/Documentation:
-  Enabled: false
 
 # Offense count: 3
 # Cop supports --auto-correct.

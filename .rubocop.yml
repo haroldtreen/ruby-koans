@@ -1,0 +1,18 @@
+Style/ExtraSpacing:
+    Exclude:
+        - '*.rb'
+
+Style/Documentation:
+    Enabled: false
+
+Style/RedundantBegin:
+    Exclude:
+        - '*.rb'
+
+# Offense count: 3
+Lint/RescueException:
+    Exclude:
+        - '*.rb'
+
+Lint/UnifiedInteger:
+    Enabled: false
